@@ -1,5 +1,5 @@
 # Use an official TensorFlow GPU image as the base image
-FROM tensorflow/tensorflow:latest-gpu
+FROM tensorflow/tensorflow:2.21.0rc0-gpu
 
 # Set the working directory
 WORKDIR /app
